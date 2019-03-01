@@ -9,7 +9,23 @@
   font-family: sans-serif;
   list-style-type: none;
 }
-.main-menu-labels {
+#main-menu-labels1 {
+  margin: 0;
+  padding: 15px 0;
+  background-color: #08254f;
+  color: #fff;
+  font-size: 18px;
+}
+
+#main-menu-labels2{
+  margin: 0;
+  padding: 15px 0;
+  background-color: #08254f;
+  color: #fff;
+  font-size: 18px;
+}
+
+#main-menu-labels3{
   margin: 0;
   padding: 15px 0;
   background-color: #08254f;
@@ -17,14 +33,77 @@
   font-size: 18px;
 }
 /* Sub Menu Styling */
-.sub-menu {
+#sub-menu1 {
   padding-left: 0;
   background-color: #dde1e7;
 }
-.sub-menu li {
+
+#sub-menu2{
+  padding-left: 0;
+  background-color: #dde1e7;
+}
+
+#sub-menu3{
+  padding-left: 0;
+  background-color: #dde1e7;
+}
+
+
+#sub-menu1 li  {
   display: block;
   width: 100%;
   padding: 20px;
   border: 2px solid #fff;
   box-sizing: border-box;
+
 }
+
+#sub-menu2 li{
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+
+}
+
+#sub-menu3 li{
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+
+}
+
+
+#sub-menu1.active {
+    display: block;
+}
+
+#sub-menu2.active {
+    display: block;
+}
+
+#sub-menu3.active {
+    display: block;
+}
+
+#sub-menu1 {
+  display: none;
+  padding-left: 0;
+  background-color: #dde1e7;
+}
+
+ #sub-menu2{
+  display: none;
+  padding-left: 0;
+  background-color: #dde1e7;
+}
+
+#sub-menu3{
+  display: none;
+  padding-left: 0;
+  background-color: #dde1e7;
+}
+
