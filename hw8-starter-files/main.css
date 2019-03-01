@@ -36,16 +36,19 @@
 #sub-menu1 {
   padding-left: 0;
   background-color: #dde1e7;
+  transition-timing-function: ease-in-out;
 }
 
 #sub-menu2{
   padding-left: 0;
   background-color: #dde1e7;
+  transition-timing-function: ease-in-out;
 }
 
 #sub-menu3{
   padding-left: 0;
   background-color: #dde1e7;
+  transition-timing-function: ease-in-out;
 }
 
 
@@ -79,6 +82,7 @@
 
 #sub-menu1.active {
     display: block;
+    
 }
 
 #sub-menu2.active {
@@ -93,6 +97,7 @@
   display: none;
   padding-left: 0;
   background-color: #dde1e7;
+  
 }
 
  #sub-menu2{
